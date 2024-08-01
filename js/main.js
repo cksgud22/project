@@ -8,6 +8,7 @@ $(function () {
         $('.slider').slick({
             autoplay: true,
             autoplaySpeed: 3000,
+            control:false
         });
     }); //slick
     
@@ -17,23 +18,11 @@ $(function () {
         autoplaySpeed:2000,
     }) //md_list
 
+    $(".event_banner").slick({
+        autoplay:true,
+        autoplaySpeed:2500,
+    }) //md_list
 
-    //모바일버튼
 
-    var btn = $(".button")
-
-    btn.click(function(){
-
-        if( btn.hasClass("on") == true ){
-            btn.removeClass("on")
-            $(".m_m_menu").stop().slideUp();
-        } else {
-            btn.addClass("on")
-            $(".m_m_menu").stop().slideDown();
-        }
-
-        
-
-    }) //
 
 }) /* jquery */
