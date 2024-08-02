@@ -21,7 +21,7 @@ $(function () {
     $(".event_banner").slick({
         autoplay:true,
         autoplaySpeed:2500,
-    }) //md_list
+    }) //md_list 
 
 
 
