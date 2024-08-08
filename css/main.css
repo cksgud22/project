@@ -14,7 +14,9 @@ body {
     height: 3100PX;
 }
 
-#wrap {}
+#wrap {
+    text-align: center;
+}
 
 #header {
     width: 100%;
@@ -56,6 +58,7 @@ body {
 
 .log_my li a {
     color: black;
+    border: none;
 }
 
 .log_my li a:hover {
@@ -127,7 +130,7 @@ body {
 }
 
 .sub ul {
-    border-radius: 50px;
+    /* border-radius: 50px; */
 }
 
 .sub li {
@@ -154,24 +157,23 @@ body {
 }
 
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .slider {
-    width: 1920px;
-    margin: 0px auto;
-    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto 0;
     /* border-top: 10px solid #FF6347; */
     border-bottom: 10px solid #FF6347;
 
 }
 
+.slider2 {
+    display: none;
+}
+
 
 /* 슬라이더MD */
 .md_wrap {
-    width: 1920px;
+    width: 100%;
     height: 500px;
     /* background-color:  #8fc9d3; */
     margin: 20px auto 0;
@@ -215,11 +217,11 @@ img {
     max-width: 100%;
     max-height: 250px;
     /* overflow: hidden; */
+
 }
 
-.md_list li {
-    max-width: 100%;
-    max-height: 250px;
+.md_list a {
+    margin-top: -20px;
 
 }
 
@@ -276,7 +278,7 @@ img {
 
 .event_banner a img:hover {
     transform: scale(1.1);
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
 
 .review {
@@ -379,9 +381,13 @@ img {
     height: 500px;
 }
 
+.m_notice {
+    display: none;
+}
+
 /* footer */
 #footer {
-
+    width: 1920px;
     background: #FF6347;
     position: relative;
 }
@@ -399,7 +405,7 @@ img {
 
 .content li {
     float: left;
-    background: url("../images/bar_footer_02.png") no-repeat right center;
+
 }
 
 
@@ -438,46 +444,33 @@ img {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    width: 150px;
+    height: 75px;
 }
 
-@media screen and (max-width: 430px) {
-    .wrap {
-        width: 430px;
-    }
+.m_f_logo {
+    display: none;
+}
 
-    .h_inner {
-        width: 430px;
-        height: 100px;
-        /* border: 1px solid red; */
-        /* background-color: bisque; */
-        display: flex;
-        margin: 0 auto;
-        justify-content: space-between;
-        position: relative;
-    }
 
-    .logo {
-        width: 100px;
-        height: 50px;
-        background-size: contain;
-    }
+.pop {
+    width: 400px;
+    height: 600px;
+    border: 5px groove #3a24ff;
+    text-align: center;
+    padding: 20px;
+    background: url(/images/popup.jpg);
+    /* position: relative; */
+    padding-top: 550px;
+    padding-left: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
 
-    .log_my {
-        position: absolute;
-        left: 150px;
-        font-size: 15px;
-        top: -25px;
-    }
-
-    .cart {
-        background-size: 50px;
-        width: 50px;
-        height: 50px;
-        top: 55px;
-        right: 50px;
-    }
-
-    .h_inner_02 {
-        max-width: 430px;
-    }
+.close {
+    /* position: absolute;
+    bottom: 20px;
+    right: 20px; */
+    background-color: gray;
 }

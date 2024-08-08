@@ -11,6 +11,13 @@ $(function () {
             control:false
         });
     }); //slick
+    $(document).ready(function () {
+        $('.slider2').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            // control:false
+        });
+    }); //mobile slick
     
     $(".md_list").slick({
         slidesToShow: 4,
@@ -22,6 +29,10 @@ $(function () {
         autoplay:true,
         autoplaySpeed:2500,
     }) //md_list 
+
+    $(".close").click(function(){
+        $(".pop").hide();
+    })
 
 
 

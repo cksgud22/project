@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+@media screen and (max-width: 430px) {
+    body{height: 1330px;}
+    #wrap {
+        max-width: 430px;
+        overflow-x: hidden;
+
+    }
+
+    #header {
+        max-width: 430px;
+        /* border: 1px solid red; */
+    }
+
+    .h_inner {
+        max-width: 430px;
+        height: 100px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 60px;
+        background-size: cover;
+    }
+
+    .cart {
+        display: none;
+    }
+
+    .h_inner_02 {
+        max-width: 430px;
+        /* border: 1px solid black */
+    }
+
+    .main1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main1>li {
+        /* border: 1px solid black; */
+        position: relative;
+        width: 100px;
+    }
+
+    .main1>li>a {
+        font-size: 16px;
+        width: 100px;
+    }
+
+    .sub li a {
+        width: 100px;
+    }
+
+    .slider {
+        margin-top: -50px;
+        border: 1px solid red;
+        display: none;
+    }
+
+    .slider2 {
+        display: block;
+        margin-top: -50px;
+    }
+
+    .md_wrap {
+        width: 430px;
+        height: 120px;
+        /* background-color:  #8fc9d3; */
+        margin: 20px auto 0;
+    }
+
+    .cont_md {
+        clear: both;
+        max-height: 300px;
+        width: 430px;
+        /* background-color: #8fc9d3; */
+        overflow-x: hidden;
+        /* border: 1px solid red; */
+    }
+
+    .cont_md h2 {
+        /* border: 1px solid red; */
+        margin-left: 0px;
+        max-height: 20px;
+        max-width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 0px;
+        color: #222;
+        /* border-bottom: 10px solid #FF6347; */
+        /* border-radius: 50px; */
+        border: none;
+
+
+    }
+
+    .md_list img {}
+
+    .md_list p {
+        font-size: 10px;
+        margin-left: 30px;
+        width: 100px;
+        padding: 5px;
+    }
+
+    .m_md_wrap {
+        width: 400px;
+        margin: 0 auto;
+        /* border: 5px solid #FF6347; */
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .contents {
+        width: 430px;
+        margin-top: 100px;
+    }
+
+    .c_inner {
+        width: 400px;
+        height: 300px;
+        border-bottom: 7px solid #FF6347;
+        border-top: 7px solid #FF6347;
+
+    }
+
+    .event_banner img {
+        background-size: cover;
+    }
+
+    .review {
+        display: none;
+    }
+
+    .notice {
+        display: none;
+    }
+
+    .m_notice {
+        margin: 0px auto 0;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 1000px;
+        z-index: 50;
+    }
+
+    #footer {
+        margin-top: 40px;
+        background: #FF6347;
+        position: relative;
+        width: 430px;
+        height: 200px;
+        /* border: 1px solid red; */
+    }
+
+    .f_inner {
+        padding: 20px 0;
+        width: 430px;
+        height: 200px;
+        margin: 0 auto;
+        position: relative;
+        border: 1px solid red;
+    }
+
+    content {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+
+
+    }
+
+    .content li {
+        display: flex margin: 0 15px;
+
+    }
+
+    .content li a {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        margin-top: 20px;
+        margin-left: 13px;
+
+
+    }
+
+    .content2 {
+        width: 400px;
+        position: absolute;
+        top: 140px;
+        font-size: 9px;
+        color: white;
+        text-align: center;
+        /* border: 1px solid red; */
+        display: block;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .copy {
+        width: 400px;
+        margin-top: -35px;
+        font-size: 13px;
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .f_logo {
+        display: none;
+    }
+    .m_f_logo{
+        display: block;
+        margin-top: 50px;
+    }
+    .pop{display: none;}
+}
