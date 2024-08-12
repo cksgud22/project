@@ -8,6 +8,7 @@
     #wrap {
         width: 100%;
         overflow-x: hidden;
+        text-align: center;
 
     }
 
@@ -57,14 +58,14 @@
     }
 
     .slider {
-        margin-top: -50px;
-        border: 1px solid red;
         display: none;
     }
 
     .slider2 {
+        /* border: 1px solid red; */
+        text-align: center;
         display: block;
-        margin-top: -50px;
+        margin: -50px auto 0;
         width: 100%;
     }
 
@@ -151,8 +152,7 @@
         top: 1000px;
         z-index: 50;
         width: 100%;
-        
-        
+        cursor: pointer;
     }
 
     #footer {

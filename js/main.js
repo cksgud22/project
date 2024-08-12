@@ -4,6 +4,7 @@ $(function () {
     }, function () {
         $(".sub").stop().slideUp();
     }) //메뉴
+    
     $(document).ready(function () {
         $('.slider').slick({
             autoplay: true,
@@ -11,6 +12,7 @@ $(function () {
             control:false
         });
     }); //slick
+
     $(document).ready(function () {
         $('.slider2').slick({
             autoplay: true,
