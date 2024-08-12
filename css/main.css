@@ -460,7 +460,7 @@ body {
     border: 5px groove #3a24ff;
     text-align: center;
     padding: 20px;
-    background: url('/images/popup.jpg');
+    background-image: url('../images/popup.jpg');
     /* position: relative; */
     padding-top: 550px;
     padding-left: 300px;
